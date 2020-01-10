@@ -1,0 +1,88 @@
+html,
+body {
+  height: 100%;
+}
+
+#container {
+  min-height: 100%;
+}
+
+#main {
+  overflow: auto;
+}
+#footer {
+  white-space: nowrap;
+  overflow: hidden;
+  box-sizing: content-box;
+  display: block;
+  float: none;
+  background-color: lightgray;
+  position: relative;
+  position: static;
+  height: 30px;
+  width: 100%;
+  margin-top: -50px;
+}
+
+#footer a {
+  color: black;
+  font-size: 10px;
+  text-decoration: none;
+  padding: 0 0 0 5px;
+}
+
+#left {
+  display: inline-block;
+  justify-content: left;
+  padding-right: 8%;
+  
+  }
+#right {
+  display: inline-block;
+  justify-content: right;
+  padding-left: 8%;
+}
+/* ---Image--- */
+#center .center {
+  display: block;
+  margin: 25px auto;
+}
+
+img {
+  width: 50%;
+}
+
+/* ---Searchbar--- */
+#box {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+#box .searchbar {
+  display: inline;
+  margin: 0 auto;
+}
+
+/* ---Nav Bar--- */
+
+#left-align a {
+  color: Gray;
+  font-size: 10px;
+  text-decoration: none;
+  margin: 0;
+}
+
+#right-align a {
+  color: Gray;
+  font-size: 10px;
+  text-decoration: none;
+  float: right;
+  margin: -15px 5px 5px 5px;
+}
+
+#navbar a:hover {
+  text-decoration: underline;
+}
+
+/* ---Footer--- */
