@@ -10,16 +10,19 @@ body {
 #main {
   overflow: auto;
 }
+
 #footer {
   white-space: nowrap;
   overflow: hidden;
   box-sizing: content-box;
-  display: block;
   float: none;
-  background-color: lightgray;
+  border-top: solid 1px;
+  border-bottom: solid 1px;
+  border-color: darkgray;
+  background-color: gainsboro;
   position: relative;
-  position: static;
-  height: 30px;
+  /* position: static; */
+  line-height: 40px;
   width: 100%;
   margin-top: -50px;
 }
@@ -29,19 +32,20 @@ body {
   font-size: 10px;
   text-decoration: none;
   padding: 0 0 0 5px;
+  margin-top: 50%;
 }
 
 #left {
   display: inline-block;
   justify-content: left;
   padding-right: 8%;
-  
-  }
-#right {
-  display: inline-block;
-  justify-content: right;
-  padding-left: 8%;
+
 }
+
+#right {
+  float: right;
+}
+
 /* ---Image--- */
 #center .center {
   display: block;
